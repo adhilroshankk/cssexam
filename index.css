@@ -1,0 +1,317 @@
+
+
+body {
+    margin: 10px 10px;
+    border: double 5px brown;
+}
+
+.front {
+    height: 600px;
+    width: 100%;
+    background-image: url(./cssimg/pexels-pixabay-38570.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.header {
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 1000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1rem;
+    color: rgb(168, 164, 164);
+    background: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.head {
+    text-decoration: none;
+    display: inline;
+    justify-content: space-around;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 40px;
+    letter-spacing: 0;
+    margin-right: 5px;
+    color: rgb(247, 245, 245);
+    text-decoration: none;
+    flex-wrap: wrap;
+
+}
+
+nav {
+    padding-right: 20px;
+    flex-wrap: wrap;
+}
+
+h2 {
+    color: rgb(168, 164, 164);
+    text-align: center;
+    margin-top: 200px;
+    font-family: cursive;
+    gap: 5rem;
+    font-weight: 500;
+    font-size: 50px;
+    flex-wrap: wrap;
+}
+
+.head:hover {
+    background-color: rgb(250, 247, 242);
+    color: black;
+    text-decoration: underline;
+    transition: 1s;
+    border-radius: 15%;
+    border-radius: 60%;
+    line-height: 10rem;
+    padding: 6px;
+
+}
+
+#myvideo {
+    position: fixed;
+
+    right: 0;
+    bottom: 0;
+
+    flex-wrap: wrap;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: absolute;
+    margin-top: -605px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 95.2%;
+    padding: 20px;
+    z-index: 5;
+    flex-wrap: wrap;
+}
+
+video {
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+    gap: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
+}
+
+.para {
+    position: absolute;
+    margin-top: -448px;
+    height: 500px;
+    width: 30%;
+    align-items: end;
+    left: 817px;
+    flex-wrap: wrap;
+
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+.gallery{
+    height: 800px;
+    width: 100%;
+    background-image: url(./cssimg/pexels-pixabay-315938.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10px;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+}
+
+.im{
+    height: 300px;
+    width: 20%;
+    transition: 1s ease-out;
+    filter: grayscale(100%);
+    flex-wrap: wrap;
+    
+
+}
+
+.im:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1) ;
+    background-image: url(./cssimg/pexels-sean-p-twomey-13453228.jpg);
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.gallery2{    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: -366px;
+    flex-wrap: wrap;
+    margin-left: -9px;
+
+}
+
+.img{
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+  }
+  
+  .card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .twitter {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+  }
+  
+  .card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .github {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+  }
+  
+  .card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .discord {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #8c9eff;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+  }
+  
+  .card1:hover .instagram {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+  }
+  
+  .card2:hover .twitter {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+  }
+  
+  .card3:hover .github {
+    fill: white;
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #8c9eff;
+  }
+  
+  .card4:hover .discord {
+    fill: white;
+  }
+
+  .contact{
+    margin-top: 70px;
+    margin-left: 40%;
+  }
